@@ -4,13 +4,18 @@
 
 ## Plugins
 
-- Disable built-in core template plugin
-- Install
-  - [Calendar](obsidian://show-plugin?id=calendar): https://github.com/liamcain/obsidian-calendar-plugin
-  - [Periodic Notes](obsidian://show-plugin?id=periodic-notes): https://github.com/liamcain/obsidian-periodic-notes
-  - [Templater](obsidian://show-plugin?id=templater-obsidian): https://github.com/SilentVoid13/Templater
+- [Calendar](obsidian://show-plugin?id=calendar): https://github.com/liamcain/obsidian-calendar-plugin
+- [Periodic Notes](obsidian://show-plugin?id=periodic-notes): https://github.com/liamcain/obsidian-periodic-notes
+- [Templater](obsidian://show-plugin?id=templater-obsidian): https://github.com/SilentVoid13/Templater
 
 ## Setup
+
+- Put the templates into a separate template folder that you will link in the plubins.
+- Create a folder for your periodic notes
+
+### Templater
+
+- Disable built-in core template plugin
 
 ### Calendar
 
