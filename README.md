@@ -16,6 +16,7 @@
 ### Templater
 
 - Disable built-in core template plugin
+- Enable "Trigger Tamplater on new file creation"
 
 ### Calendar
 
