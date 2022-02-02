@@ -32,3 +32,26 @@
 - Enable all the notes under the `Periodic Notes` plugin settings and point to these template files
 - I kept the default file format names, exept for the "Weekly Notes" section
   - Weekly Notes Format uses `WW` for ISO week number: `YYYY-[W]WW`
+- I have a folder name `000-Periodic Notes` so all my periodic notes sort to the top of the folder view
+  - If you want subfolders for each kind of periodic note, and still have the notes count properly with the Calendar plugin
+    - You can overide the year formating with the [square brackets] to specify exact folder/file name
+    - Daily Notes
+      - Format: `/YYYY/[Daily Notes]/MM/YYYY-MM-DD`
+      - Template: `ze-templates/template-periodic-010-daily_notes.md`
+      - Folder: `000-Periodic Notes`
+    - Weekly Notes
+      - Format: `/YYYY/[Weekly Notes]/YYYY-[W]WW`
+      - Template: `ze-templates/template-periodic-020-weekly_notes.md`
+      - Folder: `000-Periodic Notes`
+    - Monthly Notes
+      - Format: `/YYYY/[Monthly Notes]/YYYY-MM`
+      - Template: `ze-templates/template-periodic-030-monthly_notes.md`
+      - Folder: `000-Periodic Notes`
+    - Quarterly Notes
+      - Format: `/YYYY/YYYY-[Q]Q`
+      - Template: `ze-templates/template-periodic-040-quartly_notes.md`
+      - Folder: `000-Periodic Notes`
+    - Yearly Notes
+      - Format: `/[Yearly Notes]/YYYY`
+      - Template: `ze-templates/template-periodic-050-yearly_notes.md`
+      - Folder: `000-Periodic Notes`
